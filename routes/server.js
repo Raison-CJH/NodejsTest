@@ -16,7 +16,7 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 //라우팅 모듈 선언
-var apiRouter = require('./routes/test');
+var apiRouter = require('./controller/test');
 
 //request body json parser
 app.use(bodyParser.json());
